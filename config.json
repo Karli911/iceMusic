@@ -1,0 +1,55 @@
+{
+  "BOT_TOKEN": "YOUR_TOKEN_GOES_HERE",
+  "SPOTIFY_ID": "",
+  "SPOTIFY_SECRET": "",
+
+  // set to empty string to disable
+  "BOT_PREFIX": "d!",
+  "ENABLE_SLASH_COMMANDS": false,
+  "MENTION_AS_PREFIX": true,
+
+  // seconds
+  "VC_TIMEOUT": 600,
+  // default template setting for VC timeout
+  // true = yes, timeout; false = no timeout
+  "VC_TIMEOUT_DEFAULT": true,
+  // allow or disallow editing the vc_timeout guild setting
+  "ALLOW_VC_TIMEOUT_EDIT": true,
+
+  // maximum of 25
+  "MAX_SONG_PRELOAD": 5,
+  // how many results to display in d!search
+  "SEARCH_RESULTS": 5,
+
+  "MAX_HISTORY_LENGTH": 10,
+  "MAX_TRACKNAME_HISTORY_LENGTH": 15,
+
+  // if database is not one of sqlite, postgres or MySQL
+  // you need to provide the url in SQL Alchemy-supported format.
+  // Must be async-compatible
+  // CHANGE ONLY IF YOU KNOW WHAT YOU'RE DOING
+  "DATABASE_URL": "sqlite:///settings.db",
+
+  "ENABLE_BUTTON_PLUGIN": true,
+
+  // replace after '0x' with desired hex code ex. '#ff0188' >> "0xff0188"
+  "EMBED_COLOR": "0x4DD4D0",
+
+  "SUPPORTED_EXTENSIONS": [
+    ".webm",
+    ".mp4",
+    ".mp3",
+    ".avi",
+    ".wav",
+    ".m4v",
+    ".ogg",
+    ".mov",
+  ],
+
+  "COOKIE_PATH": "config/cookies/cookies.txt",
+
+  "GLOBAL_DISABLE_AUTOJOIN_VC": false,
+
+  // whether to tell users the bot is disconnecting
+  "ANNOUNCE_DISCONNECT": true,
+}
