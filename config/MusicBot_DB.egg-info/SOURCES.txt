@@ -1,0 +1,8 @@
+db.txt
+pyproject.toml
+setup.py
+MusicBot_DB.egg-info/PKG-INFO
+MusicBot_DB.egg-info/SOURCES.txt
+MusicBot_DB.egg-info/dependency_links.txt
+MusicBot_DB.egg-info/requires.txt
+MusicBot_DB.egg-info/top_level.txt

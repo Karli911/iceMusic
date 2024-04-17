@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MusicBot-DB
+Version: 0.0.3
+Summary: Package that installs DB library and jsonc as dependencies
+Requires-Dist: aiosqlite==0.20.0
+Requires-Dist: packaging==24.0
+Requires-Dist: json-with-comments==1.2.5
