@@ -1,5 +1,5 @@
 """
-This file uses some magic to make running Dandelion
+This file uses some magic to make running iceMusic
 in the background easier
 Head to musicbot/__main__.py if you want to see "real" main file
 """
