@@ -4,8 +4,8 @@
   "SPOTIFY_SECRET": "",
 
   // set to empty string to disable
-  "BOT_PREFIX": "d!",
-  "ENABLE_SLASH_COMMANDS": false,
+  "BOT_PREFIX": "m!",
+  "ENABLE_SLASH_COMMANDS": true,
   "MENTION_AS_PREFIX": true,
 
   // seconds
