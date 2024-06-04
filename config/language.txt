@@ -1,0 +1,8 @@
+To create a translation for this bot, i have made it convenient,
+to be able to just copy the text within the "en.json" file in this directory
+and simply edit what you want, or change if you want to be a bit quirky.
+To make activate your newly made translation, just add the letters representing the language,
+such as "en" for english, "ru" for russian, "fr" for french, and so on.
+After doing this step, change the file extension from ".txt" to ".json", which would look like this,
+"fr.json".
+For any issues don't be shy and message me.
