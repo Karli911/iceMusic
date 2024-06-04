@@ -1,7 +1,7 @@
 {
   "BOT_TOKEN": "YOUR_TOKEN_GOES_HERE",
-  "SPOTIFY_ID": "",
-  "SPOTIFY_SECRET": "",
+  "SPOTIFY_ID": "YOUR_SPOTIFY_ID",
+  "SPOTIFY_SECRET": "YOUR_SPOTIFY_SECRET",
 
   // set to empty string to disable
   "BOT_PREFIX": "m!",
