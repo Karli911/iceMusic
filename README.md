@@ -5,7 +5,7 @@ Version 0.1.2 allows for search on:
 2. Spotify
 
 Coming soon on version 0.1.5
-•Implementation of SoundCloud API
+<br>•Implementation of SoundCloud API
 •Implementation of Audiomack API
 •Error fixes
 •QOL improvements
