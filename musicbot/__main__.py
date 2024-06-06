@@ -62,8 +62,7 @@ if __name__ == "__main__":
         shutdown_task = bot.loop.create_task(read_shutdown())
 
     try:
-        token = 'NzY5NTUzNDcwNjAwMTE4Mjgz.GoDrXX.xNtXckV0x28Kx2XfeKCf669dbyhmoTCqEs_d_I'   #made a simple token login since the token in the config file passes as improper token. This will be removed if a solution is found.
-        bot.run(token, reconnect=True)
+        bot.run(config.DISCORD_TOKEN, reconnect=True)
     except discord.LoginFailure:
         print_exc(file=sys.stderr)
         print("Set the correct token in config.json", file=sys.stderr)
