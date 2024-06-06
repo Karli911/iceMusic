@@ -4,7 +4,7 @@ Version 0.1.2 allows for search on:
 1. YouTube
 2. Spotify
 
-Coming soon on version 0.1.5:
+Coming soon on version 0.1.5
 •Implementation of SoundCloud API
 •Implementation of Audiomack API
 •Error fixes
