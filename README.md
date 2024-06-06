@@ -6,6 +6,6 @@ Version 0.1.2 allows for search on:
 
 Coming soon on version 0.1.5
 <br>•Implementation of SoundCloud API
-•Implementation of Audiomack API
-•Error fixes
-•QOL improvements
+<br>•Implementation of Audiomack API
+<br>•Error fixes
+<br>•QOL improvements
