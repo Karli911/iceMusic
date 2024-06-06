@@ -8,7 +8,7 @@ requires = [
 ]
 
 [project]
-name = "MusicBot-DB"
+name = "iceC-Music"
 description = "Package that installs DB library and jsonc as dependencies"
 version = "0.0.3"
 dynamic = ["dependencies"]
