@@ -9,3 +9,5 @@ Coming soon on version 0.1.5
 <br>•Implementation of Audiomack API
 <br>•Error fixes
 <br>•QOL improvements
+
+<br>Feel free to contact me or contribute to the project with your own ideas and tweaks to the code.
