@@ -11,3 +11,7 @@ Coming soon on version 0.1.5
 <br>•QOL improvements
 
 <br>Feel free to contact me or contribute to the project with your own ideas and tweaks to the code.
+<br>
+<br>
+<br>
+<br>VGhlIHRydXRoIGlzIGZhciBhd2F5IGZyb20gYmVpbmcgcmVhbC4gSGUgbGllcy4gSSBESURO4oCZVCBkbyBpdC4NCi9wbHVnaW5zL2J1dHRvbi5weS8jOTY=
