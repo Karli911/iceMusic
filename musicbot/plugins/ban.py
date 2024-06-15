@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from MusicBot.bot import MusicBot
 
 def has_permissions_or_role():
   async def predicate(ctx):
@@ -14,7 +15,7 @@ def has_permissions_or_role():
   return commands.check(predicate)
 
 class BanCog(commands.Cog):
-  def __init__(self,bot: Musicbot):
+  def __init__(self,bot: MusicBot):
     self.bot = bot
   @commands.command(name = "ban")
   @has_permissions_or_role()
