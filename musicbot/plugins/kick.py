@@ -35,6 +35,3 @@ class kickCog(commands.Cog):
       await ctx.send("An error occurred.")
 asyc def setup(bot):
   await bot.add_cog(kickCog(bot))
-
-       
-      
