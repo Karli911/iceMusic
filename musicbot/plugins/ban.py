@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from MusicBot.bot import MusicBot
+from musicbot.bot import MusicBot
 
 def has_permissions_or_role():
   async def predicate(ctx):
