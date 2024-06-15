@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from musicbot.bot import MusicBot
 
 def has_kick_permissions():
   async def predicate(ctx):
@@ -11,7 +12,7 @@ def has_kick_permissions():
   return commands.check(predicate)
 
 class kickCog(commands.Cog):
-  def __init__(self, bot):
+  def __init__(self, bot: MusicBot):
     self.bot = bot
 
   @commands.command(name = "kick")
