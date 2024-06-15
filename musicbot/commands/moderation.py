@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from musicbot.bot import MusicBot
 from datetime import datetime
 
 def has_moderation_permissions():
@@ -12,7 +13,7 @@ def has_moderation_permissions():
     return commands.check(predicate)
 
 class ModerationCog(commands.Cog):
-    def __init__(self, bot):
+    def __init__(self, bot: MusicBot):
         self.bot = bot
         self.warns = {}
 
