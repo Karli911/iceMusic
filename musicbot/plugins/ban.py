@@ -14,7 +14,7 @@ def has_permissions_or_role():
   return commands.check(predicate)
 
 class BanCog(commands.Cog):
-  def __init__(self,bot):
+  def __init__(self,bot: Musicbot):
     self.bot = bot
   @commands.command(name = "ban")
   @has_permissions_or_role()
