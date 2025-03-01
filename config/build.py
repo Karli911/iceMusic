@@ -39,7 +39,7 @@ sys.argv.extend(
             for file in yt_dlp_plugins
         ],
         "-p=config",
-        "-n=DandelionMusic",
+        "-n=IceC-Music",
         "-i=assets/note.ico",
         "run.py",
     ]
