@@ -1,4 +1,12 @@
 "This file is here to install the selected DB package and jsonc"
+from setuptools import setup, find_packages
+setup(
+    name="config",
+    version="0.1.0",
+    description="Config Package",
+    packages=find_packages(),
+)
+    
 import os
 
 try:
