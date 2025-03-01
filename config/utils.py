@@ -1,7 +1,7 @@
 import os
 import sys
 import ast
-import jsonc
+import commentjson as jsonc
 import string
 from typing import TypeVar, Callable, Iterable, Optional, List
 
