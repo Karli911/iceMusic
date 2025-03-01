@@ -6,6 +6,7 @@ requires = [
    "packaging==24.0",
    "json-with-comments==1.2.5",
 ]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "iceC-Music"
