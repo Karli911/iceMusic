@@ -27,7 +27,7 @@ del sys.path[0]
 
 
 class Config:
-    BOT_TOKEN = os.environ["DISCORD_TOKEN", "MISSING_KEY"]
+    BOT_TOKEN = os.environ["DISCORD_TOKEN"]
     SPOTIFY_ID = ""
     SPOTIFY_SECRET = ""
 
