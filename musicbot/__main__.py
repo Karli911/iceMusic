@@ -62,7 +62,7 @@ if __name__ == "__main__":
         shutdown_task = bot.loop.create_task(read_shutdown())
 
     try:
-        bot.run(config.DISCORD_TOKEN, reconnect=True)
+        bot.run(config.BOT_TOKEN, reconnect=True)
     except discord.LoginFailure:
         print_exc(file=sys.stderr)
         print("Set the correct token in config.json", file=sys.stderr)
