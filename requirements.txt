@@ -7,3 +7,4 @@ SQLAlchemy[asyncio]==2.0.29
 alembic==1.13.1
 aioconsole==0.7.0
 commentjson==0.9.0
+packaging==24.0
