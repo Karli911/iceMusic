@@ -5,7 +5,7 @@ import inspect
 import warnings
 from typing import Optional
 
-import jsonc
+import commentjson as jsonc
 from packaging.requirements import Requirement
 
 sys.path.insert(0, os.path.dirname(__file__))
