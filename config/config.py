@@ -1,4 +1,3 @@
-import os
 import sys
 import ast
 import inspect
@@ -7,6 +6,11 @@ from typing import Optional
 
 import commentjson as jsonc
 from packaging.requirements import Requirement
+import os
+
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+if not DISCORD_TOKEN:
+    raise ValueError("No DISCORD_TOKEN found in environment variables") 
 
 sys.path.insert(0, os.path.dirname(__file__))
 from utils import (  # noqa: E402
@@ -23,7 +27,7 @@ del sys.path[0]
 
 
 class Config:
-    BOT_TOKEN = "NzY5NTUzNDcwNjAwMTE4Mjgz.GoDrXX.xNtXckV0x28Kx2XfeKCf669dbyhmoTCqEs_d_I"
+    BOT_TOKEN = DISCORD_TOKEN
     SPOTIFY_ID = ""
     SPOTIFY_SECRET = ""
 
